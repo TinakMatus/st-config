@@ -196,8 +196,8 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_minus,       zoom,           {.f = +1} },
 	{ TERMMOD,              XK_Next,        zoom,           {.f = -1} },
 	{ TERMMOD,              XK_Home,        zoomreset,      {.f =  0} },
-	{ ShiftMask, 		XK_Page_Up,   kscrollup,   {.i = 3} },
-	{ ShiftMask, 		XK_Page_Down, kscrolldown, {.i = 3} },
+	{ ShiftMask, 		XK_Page_Up,   kscrollup,   {.i = 4} },
+	{ ShiftMask, 		XK_Page_Down, kscrolldown, {.i = 4} },
 
 	{ TERMMOD,              XK_C,           clipcopy,       {.i =  0} },
 	{ TERMMOD,              XK_V,           clippaste,      {.i =  0} },
